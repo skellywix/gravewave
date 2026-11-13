@@ -1,0 +1,97 @@
+{
+  "artwork": {
+    "method": "Original AI-assisted illustration, then crop and WebP encoding",
+    "model": "OpenAI GPT Image 2",
+    "created": "2026-11-12",
+    "brief": "Three original adult kawaii-goth heroines, ages 26–29, in a haunted carnival. Original, gothic gala, and afterparty outfit collections. No copied franchise characters or logos.",
+    "promptMetadata": "Each image has an adjacent sidecar named <image>.webp.json, written by the Impeccable embed-prompt tool, which records the verbatim structured generation fields (subject, scene and composition; the default collection also has lighting and style) used for that image's source collection. The three images in a collection share one prompt, and each image is a crop of that collection's three-character source artwork. The sidecars are not metadata embedded in the WebP files, and the original image bytes are unchanged. Input-image file paths and tool identifiers are omitted, and the provider's internal prompt rewrite is not available. For the nocturne and festival collections, 'Image 1' in the prompt refers to the default collection artwork that was supplied as the edit input.",
+    "files": [
+      {
+        "file": "art/mira-default.webp",
+        "collection": "default",
+        "width": 512,
+        "height": 1024,
+        "bytes": 188844,
+        "sha256": "818d62568475136ecae3c00ba8271322ef158d16e6afcd2b4b8c906964eec473"
+      },
+      {
+        "file": "art/rin-default.webp",
+        "collection": "default",
+        "width": 512,
+        "height": 1024,
+        "bytes": 192120,
+        "sha256": "fd49c072516ae983e731d1eab2d9aad8d3e5d644c286e393a1d8a7b2765d1958"
+      },
+      {
+        "file": "art/sera-default.webp",
+        "collection": "default",
+        "width": 512,
+        "height": 1024,
+        "bytes": 179024,
+        "sha256": "b72646f6482ea170450661941d2b5674da2de8dff529ff3c56a936f97475dfd7"
+      },
+      {
+        "file": "art/mira-nocturne.webp",
+        "collection": "nocturne",
+        "width": 512,
+        "height": 1024,
+        "bytes": 195684,
+        "sha256": "bf9f5e6df9665601e0c7600722b65a5c1936ac413ec5e98eb620ef6b44cdbb5e"
+      },
+      {
+        "file": "art/rin-nocturne.webp",
+        "collection": "nocturne",
+        "width": 512,
+        "height": 1024,
+        "bytes": 180270,
+        "sha256": "827f53efe8ad1b40943242a2eb0a4b2bda700ca88c25dfd57276727838e54606"
+      },
+      {
+        "file": "art/sera-nocturne.webp",
+        "collection": "nocturne",
+        "width": 512,
+        "height": 1024,
+        "bytes": 216956,
+        "sha256": "0367412daeff5be8960a590b5b7395699362c54df295fb30e2ba79c0091df251"
+      },
+      {
+        "file": "art/mira-festival.webp",
+        "collection": "festival",
+        "width": 512,
+        "height": 1024,
+        "bytes": 207220,
+        "sha256": "dad0744ba047e34b12ba4836f12b32d0fdad402fd7cd53c7add104016802a771"
+      },
+      {
+        "file": "art/rin-festival.webp",
+        "collection": "festival",
+        "width": 512,
+        "height": 1024,
+        "bytes": 206942,
+        "sha256": "7add4f24ec0eb820bfa71b7dbad990feb8c8cbf40edc91aa1367cfe1a251adf6"
+      },
+      {
+        "file": "art/sera-festival.webp",
+        "collection": "festival",
+        "width": 512,
+        "height": 1024,
+        "bytes": 187550,
+        "sha256": "332534f9c45bbabb29fbc3a5e897e369f1175a9cc4d13245492f07f1a6ded23c"
+      }
+    ]
+  },
+  "font": {
+    "family": "Cormorant Garamond",
+    "source": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+    "license": "SIL Open Font License 1.1",
+    "file": "fonts/cormorant-garamond.ttf",
+    "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "licenseFile": "fonts/OFL.txt"
+  },
+  "audio": {
+    "method": "Original oscillator-synthesized sound cues and a short original procedural melody. No sampled recordings."
+  },
+  "world": {
+    "method": "Original procedural Three.js geometry and materials."
+  }
+}

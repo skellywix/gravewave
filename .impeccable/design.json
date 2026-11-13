@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T07:40:11Z",
+  "title": "Design System: Gravewave",
+  "extensions": {
+    "colorMeta": {
+      "midnight-ink": {
+        "role": "neutral",
+        "displayName": "Midnight Ink",
+        "canonical": "#100e18",
+        "tonalRamp": [
+          "#0b0b0e",
+          "#26252c",
+          "#45434e",
+          "#666471",
+          "#898795",
+          "#aeacb7",
+          "#ceccd5",
+          "#eeeef3"
+        ]
+      },
+      "velvet-panel": {
+        "role": "neutral",
+        "displayName": "Velvet Panel",
+        "canonical": "#211a2d",
+        "tonalRamp": [
+          "#0c0a10",
+          "#282430",
+          "#474153",
+          "#696278",
+          "#8c849c",
+          "#b0aabd",
+          "#d0cbd9",
+          "#f0edf6"
+        ]
+      },
+      "aubergine-card": {
+        "role": "neutral",
+        "displayName": "Aubergine Card",
+        "canonical": "#30223f",
+        "tonalRamp": [
+          "#0d0912",
+          "#2a2233",
+          "#4b3f59",
+          "#6d5e7f",
+          "#9181a4",
+          "#b4a8c3",
+          "#d2c9de",
+          "#f1ebf9"
+        ]
+      },
+      "moon-white": {
+        "role": "neutral",
+        "displayName": "Moon White",
+        "canonical": "#f7f0ff",
+        "tonalRamp": [
+          "#0c0a0e",
+          "#28252b",
+          "#47434d",
+          "#696370",
+          "#8c8693",
+          "#b0abb6",
+          "#d0ccd4",
+          "#f0edf2"
+        ]
+      },
+      "moon-mist": {
+        "role": "neutral",
+        "displayName": "Moon Mist",
+        "canonical": "#c1b5d0",
+        "tonalRamp": [
+          "#0d0a10",
+          "#292430",
+          "#494153",
+          "#6b6179",
+          "#8f839d",
+          "#b2a9bd",
+          "#d1cada",
+          "#f1ecf6"
+        ]
+      },
+      "ghost-cyan": {
+        "role": "primary",
+        "displayName": "Ghost Cyan",
+        "canonical": "#69e9f5",
+        "tonalRamp": [
+          "#000f13",
+          "#002f35",
+          "#00525c",
+          "#007883",
+          "#009ca8",
+          "#66bec6",
+          "#9ddae0",
+          "#d1f7fb"
+        ]
+      },
+      "mint-glass": {
+        "role": "primary",
+        "displayName": "Mint Glass",
+        "canonical": "#dbf7ef",
+        "tonalRamp": [
+          "#070d0b",
+          "#1d2926",
+          "#364a45",
+          "#546c65",
+          "#769089",
+          "#9fb3ad",
+          "#c3d2cd",
+          "#e7f1ee"
+        ]
+      },
+      "deep-teal-ink": {
+        "role": "neutral",
+        "displayName": "Deep Teal Ink",
+        "canonical": "#112723",
+        "tonalRamp": [
+          "#070d0b",
+          "#1d2927",
+          "#374946",
+          "#546c67",
+          "#778f8a",
+          "#a0b3ae",
+          "#c3d1ce",
+          "#e8f1ef"
+        ]
+      },
+      "lantern-rose": {
+        "role": "secondary",
+        "displayName": "Lantern Rose",
+        "canonical": "#ff8caf",
+        "tonalRamp": [
+          "#1b020a",
+          "#450f24",
+          "#752241",
+          "#a43b60",
+          "#cc6083",
+          "#e691a9",
+          "#fab9ca",
+          "#ffe1ec"
+        ]
+      },
+      "danger-crimson": {
+        "role": "status",
+        "displayName": "Danger Crimson",
+        "canonical": "#ff6483",
+        "tonalRamp": [
+          "#200005",
+          "#4f0018",
+          "#84002f",
+          "#b81a4a",
+          "#e24b6c",
+          "#f98597",
+          "#ffb1bd",
+          "#ffdde3"
+        ]
+      },
+      "focus-gold": {
+        "role": "neutral",
+        "displayName": "Focus Gold",
+        "canonical": "#fff1b4",
+        "tonalRamp": [
+          "#0e0b01",
+          "#2d2608",
+          "#4f4516",
+          "#73662c",
+          "#978950",
+          "#b8af84",
+          "#d6ceae",
+          "#f3efda"
+        ]
+      },
+      "crate-amber": {
+        "role": "secondary",
+        "displayName": "Crate Amber",
+        "canonical": "#deac59",
+        "tonalRamp": [
+          "#140800",
+          "#382100",
+          "#613d00",
+          "#8a5c00",
+          "#af7f29",
+          "#cca76d",
+          "#e5c99f",
+          "#feecd1"
+        ]
+      },
+      "health-mint": {
+        "role": "status",
+        "displayName": "Health Mint",
+        "canonical": "#a9f6d7",
+        "tonalRamp": [
+          "#000f09",
+          "#042e21",
+          "#10513d",
+          "#27765c",
+          "#4f9a7e",
+          "#85bca6",
+          "#b1d8c7",
+          "#dcf6ea"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The heroine's name over her portrait on the home view."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Mission strip and similar section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Upgrade and route card names, act labels."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Result figures, tabular."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions and dialog copy."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Toast text and card descriptions."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Primary button text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "HUD world and crate labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "cinematic-burst",
+        "value": "0 8px 32px #0005",
+        "purpose": "The cinematic burst."
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 30px #0006",
+        "purpose": "The toast."
+      },
+      {
+        "name": "arena-frame",
+        "value": "0 0 100px #0008",
+        "purpose": "The desktop arena frame."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Shared easing for the arrive animations."
+      },
+      {
+        "name": "portrait-arrive",
+        "value": "1.1s",
+        "purpose": "Cinematic portrait entrance."
+      },
+      {
+        "name": "copy-arrive",
+        "value": ".7s",
+        "purpose": "Cinematic copy reveal."
+      },
+      {
+        "name": "dialog-arrive",
+        "value": ".35s",
+        "purpose": "Dialog entrance."
+      },
+      {
+        "name": "bar-width",
+        "value": ".15s and .12s",
+        "purpose": "Health bar and Encore fill width transitions."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "Applied by [data-motion=reduced] and prefers-reduced-motion to decorative CSS animation and transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "min-width: 1000px"
+      },
+      {
+        "name": "tablet",
+        "value": "max-width: 1000px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width: 650px"
+      },
+      {
+        "name": "small-phone",
+        "value": "max-width: 370px"
+      },
+      {
+        "name": "short",
+        "value": "max-height: 650px and min-width: 651px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The filled mint primary action; hover brightens 16%, press moves down 1px.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Start the Parade</button>",
+      "css": ".ds-primary{display:flex;align-items:center;justify-content:center;gap:12px;min-height:58px;width:260px;padding:15px 24px;border:0;border-radius:3px;background:#dbf7ef;color:#112723;font:700 16px \"Segoe UI\",Arial,sans-serif;cursor:pointer}.ds-primary:hover{filter:brightness(1.16)}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Transparent button with a 1px muted-violet border.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Wardrobe</button>",
+      "css": ".ds-secondary{display:block;min-height:50px;width:260px;padding:12px 18px;border:1px solid #78658b;border-radius:3px;background:transparent;color:#f7f0ff;font:16px \"Segoe UI\",Arial,sans-serif;cursor:pointer}.ds-secondary:hover{filter:brightness(1.16)}.ds-secondary:active{transform:translateY(1px)}.ds-secondary:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "46px circular control; the glyph is an inline SVG.",
+      "html": "<button class=\"ds-icon\" type=\"button\" aria-label=\"Sound on\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m4 9 4 0 5-4v14l-5-4H4Z\"/><path d=\"M17 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14\"/></svg></button>",
+      "css": ".ds-icon{width:46px;height:46px;padding:10px;border:1px solid #806f96;border-radius:50%;background:#1b142bd9;color:#f7f0ff;cursor:pointer}.ds-icon svg{display:block;width:100%;height:100%}.ds-icon:hover{filter:brightness(1.16)}.ds-icon:active{transform:translateY(1px)}.ds-icon:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "Mode Tab",
+      "kind": "nav",
+      "refersTo": "mode-tab",
+      "description": "Two-tab mode switch; the pressed tab gets an accent bottom border and a deeper fill.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab\" type=\"button\" aria-pressed=\"true\"><strong>Campaign</strong></button><button class=\"ds-tab\" type=\"button\" aria-pressed=\"false\"><strong>Survival</strong></button></div>",
+      "css": ".ds-tabs{display:grid;grid-template-columns:1fr 1fr;width:280px;color:#f7f0ff;font-family:\"Segoe UI\",Arial,sans-serif}.ds-tab{min-height:44px;padding:14px 10px;border:0;border-bottom:1px solid #42364f;background:transparent;color:inherit;text-align:left;cursor:pointer}.ds-tab[aria-pressed=true]{border-bottom-color:#69e9f5;background:#241c32}.ds-tab strong{font-size:15px;font-weight:600}.ds-tab:hover{filter:brightness(1.16)}.ds-tab:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "Dialog",
+      "kind": "custom",
+      "refersTo": "dialog",
+      "description": "A 12px velvet panel with a Nightfall heading, body copy, and a text button.",
+      "html": "<section class=\"ds-dialog\" aria-labelledby=\"ds-dialog-h\"><h2 id=\"ds-dialog-h\">Paused</h2><p>The parade waits for you.</p><button class=\"ds-dialog-btn\" type=\"button\">Resume</button></section>",
+      "css": ".ds-dialog{box-sizing:border-box;width:360px;padding:36px;border:1px solid #6c567d;border-radius:12px;background:#211a2d;color:#f7f0ff;font:15px \"Segoe UI\",Arial,sans-serif}.ds-dialog h2{margin:0 0 14px;font:600 48px/1.05 Nightfall,Georgia,serif;letter-spacing:-.025em}.ds-dialog p{margin:0 0 22px;color:#dccde9}.ds-dialog-btn{min-height:44px;padding:8px 0;border:0;background:transparent;color:inherit;font:13px \"Segoe UI\",Arial,sans-serif;text-decoration:underline;text-underline-offset:5px;cursor:pointer}.ds-dialog-btn:hover{filter:brightness(1.16)}.ds-dialog-btn:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "Upgrade Card",
+      "kind": "card",
+      "refersTo": "upgrade-card",
+      "description": "Choice card: name, then family and rank, then description and detail. The whole card is one button.",
+      "html": "<button class=\"ds-upgrade\" type=\"button\"><h3>Silver Needle</h3><span class=\"ds-family\">ballistics · RANK 1/3</span><p>One shot. An entire queue.</p><strong>Pierce 1 additional enemy per rank.</strong></button>",
+      "css": ".ds-upgrade{display:block;width:280px;padding:20px 10px;border:0;border-top:1px solid #9980b0;background:#30223f;color:#f7f0ff;text-align:left;font-family:\"Segoe UI\",Arial,sans-serif;cursor:pointer}.ds-upgrade h3{margin:0 0 8px;font:600 28px/1.1 Nightfall,Georgia,serif}.ds-family{display:block;margin-bottom:14px;color:#d5c1e4;font-size:9px;letter-spacing:.1em;text-transform:uppercase}.ds-upgrade p{margin:0 0 15px;color:#ddcde9;font-size:13px}.ds-upgrade strong{display:block;color:#b9f2e4;font-size:12px;font-weight:550;line-height:1.5}.ds-upgrade:hover{filter:brightness(1.16)}.ds-upgrade:focus-visible{outline:3px solid #fff1b4;outline-offset:4px}"
+    },
+    {
+      "name": "HUD World Label",
+      "kind": "custom",
+      "refersTo": "hud-label",
+      "description": "Tinted, bordered chip naming the current act. Not interactive.",
+      "html": "<span class=\"ds-world\">Ghostlight Pier</span>",
+      "css": ".ds-world{display:inline-block;padding:4px 8px;border:1px solid #6ae7cf;border-radius:3px;background:#112a36e8;color:#a6ffed;font:800 12px \"Segoe UI\",Arial,sans-serif;white-space:nowrap;text-shadow:0 1px 2px #000}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Floating notice: bright mint fill, dark 13px text, and the stylesheet's toast shadow. Not interactive.",
+      "html": "<div class=\"ds-toast\" role=\"status\">Outfit equipped</div>",
+      "css": ".ds-toast{display:inline-block;padding:14px 20px;border-radius:6px;background:#e7fff4;color:#18281f;box-shadow:0 8px 30px #0006;text-align:center;font:13px \"Segoe UI\",Arial,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Collector's Display Case",
+    "overview": "Gravewave opens like a collectible figure on its packaging card: one heroine, framed in an arch, lit against a midnight ground, with the box's small print around her. The case is the interface. The same surfaces carry straight into play, so choosing a heroine, deploying, and spending Echoes on an outfit feel like handling one object rather than moving between screens.\n\nThe world is a midnight monster carnival: violet night, black cathedral stone, moon-white reading surfaces, silver details, ghost-blue rewards, crimson danger. It is theatrical and cute, never cluttered. Art carries the personality; controls stay sharp and legible.",
+    "keyCharacteristics": [
+      "Portrait first. The heroine's arch and the Start action open the home view.",
+      "A pale mint primary button against deep violet.",
+      "Tonal layering instead of shadows; light comes from the art and the accent, not from the chrome.",
+      "Serif display type for names and numbers, a plain system sans for body copy and buttons.",
+      "Each outfit recolors the accent, so the interface wears the same trim as the figure."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Ring Rule",
+        "body": "Focus Gold is the focus outline on buttons, links, and the game canvas: 3px wide with a 4px offset.",
+        "section": "colors"
+      },
+      {
+        "name": "The Name First Rule",
+        "body": "On upgrade cards the name comes before the family and rank line, in both reading order and vertical order.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Stage Rule",
+        "body": "Controls, cards, and panels carry no box shadow; only the cinematic burst, the toast, and the desktop arena frame do.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the primary button as the boldest control on a view: mint fill, dark text, 58px tall.",
+      "**Do** put the card name before the family and rank metadata.",
+      "**Do** let the equipped outfit's trim replace Ghost Cyan wherever the accent appears.",
+      "**Do** honor `[data-motion=\"reduced\"]` and `prefers-reduced-motion`: decorative CSS animations and transitions stop. Gameplay continues, and the renderer reduces its own bob, shake, and scroll separately.",
+      "**Do** keep the Focus Gold ring, 3px with a 4px offset, on focusable controls.",
+      "**Do** check layout changes on a 390 by 844 viewport and on desktop."
+    ],
+    "donts": [
+      "**Don't** add box shadows to controls, cards, or panels; depth is tonal.",
+      "**Don't** use the accent color as a status signal; it changes with the equipped outfit.",
+      "**Don't** put descriptions, weapon notes, or controls notes ahead of Start on the phone home view.",
+      "**Don't** make the home view a generic landing-page hero or card grid; the figure showcase opens directly into play.",
+      "**Don't** introduce a font other than Nightfall and the system sans."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gravewave-midnight-parade",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A kawaii-goth arcade roguelike for the browser.",
+  "scripts": {
+    "dev": "vite",
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/three": "0.187.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.8"
+  },
+  "engines": {
+    "node": ">=24.12.0"
+  }
+}
